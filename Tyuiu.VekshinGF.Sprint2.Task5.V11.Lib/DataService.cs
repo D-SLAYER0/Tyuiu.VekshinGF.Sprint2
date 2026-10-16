@@ -46,7 +46,7 @@ namespace Tyuiu.VekshinGF.Sprint2.Task5.V11.Lib
                 }
             }
 
-            return $"{nextDay}.{nextMonth}.{nextYear}";
+            return $"{nextDay:D2}.{nextMonth:D2}.{nextYear}";
         }
     }
 }
