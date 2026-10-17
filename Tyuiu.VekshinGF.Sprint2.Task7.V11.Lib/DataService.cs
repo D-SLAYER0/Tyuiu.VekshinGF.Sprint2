@@ -9,7 +9,7 @@ namespace Tyuiu.VekshinGF.Sprint2.Task7.V11.Lib
             bool inCircle = (x * x + y * y) <= 1;
 
             
-            bool inCutSector = (x > 0) && (y > 0) && (y < x);
+            bool inCutSector = (x > 0) && (y < 0) && (y < x);
 
             
             return inCircle && !inCutSector;
